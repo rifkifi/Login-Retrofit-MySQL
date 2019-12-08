@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="HintInputTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/input_floating_color</item>
+        <item name="android:textSize">22dp</item>
+        <item name="colorAccent">@color/input_floating_color</item>
+    </style>
+    <style name="InputTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textColorHint">#ff000000</item>
+        <item name="android:textSize">24dp</item>
+        <item name="colorAccent">#ff000000</item>
+    </style>
+
+    <style name="ErrorTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#ffff0000</item>
+        <item name="android:textColorHint">#ffff0000</item>
+        <item name="android:textSize">18sp</item>
+        <item name="colorAccent">#ffff0000</item>
+    </style>
+
+    <color name="input_floating_color">#75D1FF</color>
+</resources>
